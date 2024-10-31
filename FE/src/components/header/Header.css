@@ -1,0 +1,33 @@
+.app-header {
+    background-color: #738088;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 4px;
+}
+
+.header-title {
+    color: #abe2ff;
+    font-weight: bold;
+}
+  
+.header-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+  
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.greeting {
+    font-weight: bold;
+    color: #abe2ff;
+    font-size: large;
+    margin-right: 20px;
+}  

@@ -1,0 +1,17 @@
+.filters-container {
+    margin-bottom: 40px;
+}
+
+.filter-input {
+    margin: 4px;
+}
+
+.filter-by {
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.filter-label {
+    font-size: large;
+    margin-right: 20px;
+}

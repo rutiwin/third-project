@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "outDir": "./build",
+        "typeRoots": ["./node_modules/@types", "./src/types"],
+        "types": ["jest", "node"]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/types/custom.d.ts",
+        "tests/**/*.test.ts"
+    ]
+}
